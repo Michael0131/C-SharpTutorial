@@ -16,7 +16,6 @@ and removes the most recent item, also in `constant time` O(1). To determine the
 number of elements in the stack with a time complexity of O(1). Finally, the `Empty()` operation checks whether the stack is empty by evaluating `myStack.Count == 0`, which returns 
 `true` if there are no elements and operates in `constant time` O(1). These operations ensure that stacks are efficient and straightforward to use for a variety of tasks.
 
-![Last-In-First-Out](Last-in-first-out.png)
 
 
 ## But why use stacks??
