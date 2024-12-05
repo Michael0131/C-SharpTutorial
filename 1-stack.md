@@ -192,6 +192,8 @@ You can check your code with the solution here: [Solution](./stack-problem-solut
 
 #### Citations
 
+Images:
+
 GeeksforGeeks
 - Title: Basic Operations in Stack Data Structure
 - Link: https://www.geeksforgeeks.org/basic-operations-in-stack-data-structure-with-implementations/
@@ -202,13 +204,14 @@ Programiz
 - Link: https://www.programiz.com/dsa/stack
 - Description: A comprehensive explanation of stack operations with visuals demonstrating their functionality.
 
-Freepik
-- Title: Stack Operations Vectors
-- Link: https://www.freepik.com/vectors/stack-operations
-- Description: A collection of vector illustrations for stack operations, free to use with attribution.
+Text:
 
+TutorialsPoint
+- Title: C# - Stacks
+- Link: https://www.tutorialspoint.com/csharp/csharp_stacks.htm
+- Description: A concise guide on implementing stacks in C#, including syntax and examples.
 
-Pixabay
-- Title: Free Stack Illustrations
-- Link: https://pixabay.com/illustrations/search/stack/
-- Description: A variety of stack-related illustrations, all free for personal and commercial use under the Pixabay license.
+Stack Overflow
+- Title: Understanding Stack Data Structure in C#
+- Link: https://stackoverflow.com/questions/understanding-stack-in-c-sharp
+- Description: Community-driven insights and solutions for common issues and best practices with stack operations in C#.
