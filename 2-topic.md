@@ -34,6 +34,18 @@ Unlike dynamic arrays, which store data in contiguous memory locations, linked l
 
 Dynamic arrays excel at indexed access (O(1)), while linked lists excel at frequent insertions and deletions.
 
+### Linked List Operations
+
+| **Operation**   | **Description**                              | **Efficiency** |
+|------------------|----------------------------------------------|----------------|
+| **InsertHead**   | Adds an element to the beginning of the list. | O(1)           |
+| **InsertTail**   | Adds an element to the end of the list.       | O(1)           |
+| **Insert**       | Adds an element at a specific position.       | O(n)           |
+| **RemoveHead**   | Removes the first element in the list.        | O(1)           |
+| **RemoveTail**   | Removes the last element in the list.         | O(1)           |
+| **Remove**       | Removes a specific element.                   | O(n)           |
+| **Traverse**     | Iterates through all elements.                | O(n)           |
+
 ### Code Example: Singly Linked List
 Here is a basic implementation of a singly linked list:
 
@@ -98,3 +110,103 @@ class Program {
     }
 }
 ```
+### Adding to a Linked List
+
+Insert at the Head
+- Create a new node.
+- Set the new node's Next to the current head.
+- Update the head to the new node.
+
+Insert at the Tail
+- Create a new node.
+- Traverse the list to find the last node.
+- Set the last node's Next to the new node.
+
+Insert in the Middle
+- Create a new node.
+- Update the new node's pointers to connect to its neighbors.
+- Update the pointers of its neighbors to include the new node.
+
+### Removing from a Linked List
+
+Removing from a Linked List (head)
+- Update the head to point to the second node.
+- If the list becomes empty, update both head and tail to null.
+
+Removing from a Linked List (tail)
+- Traverse to the second-to-last node.
+- Set its Next to null and update the tail.
+
+Removing from a Linked List (middle)
+- Update the Next of the preceding node to skip the target node.
+- Update the Prev of the subsequent node (if doubly linked).
+
+### Accessing a Linked List
+
+Traversal involves starting at the head (or tail for backward traversal) and following pointers until reaching the end of the list.
+
+Traversal Example:
+
+```csharp
+private void Traverse() {
+    Node current = head;
+    while (current != null) {
+        Console.WriteLine(current.Data);
+        current = current.Next;
+    }
+} 
+```
+
+### Key Terms
+
+| **Term**            | **Definition**                                                         |
+|----------------------|-------------------------------------------------------------------------|
+| **Node**            | Combination of data and pointers.                                      |
+| **Pointer**         | Memory address reference to another node.                              |
+| **Head**            | Pointer to the first node in the list.                                 |
+| **Tail**            | Pointer to the last node in the list.                                  |
+| **Next**            | Pointer in a node that references the subsequent node.                 |
+| **Previous**        | Pointer in a node that references the preceding node (in doubly linked lists). |
+| **Doubly-Linked List** | A list with nodes containing pointers to both the next and previous nodes. |
+
+### Problem to Solve: Playlist Management with a Singly Linked List
+
+A playlist system uses a singly linked list to manage songs. Each song is represented as a node in the linked list. You can:
+- Add songs to the beginning or end of the playlist.
+- Remove the first or last song from the playlist.
+- Display the current playlist.
+
+This program will simulate a playlist system, allowing users to:
+- Add songs to the beginning or end of the playlist.
+- Remove songs from the beginning or end of the playlist.
+- View the current playlist.
+
+
+```
+Welcome to the Playlist Manager!
+Enter a command (add_head, add_tail, remove_head, remove_tail, display, quit):
+> add_head SongA
+SongA added to the beginning of the playlist.
+
+Enter a command (add_head, add_tail, remove_head, remove_tail, display, quit):
+> add_tail SongB
+SongB added to the end of the playlist.
+
+Enter a command (add_head, add_tail, remove_head, remove_tail, display, quit):
+> display
+Current playlist: SongA -> SongB -> null
+
+Enter a command (add_head, add_tail, remove_head, remove_tail, display, quit):
+> remove_head
+Removed SongA from the beginning of the playlist.
+
+Enter a command (add_head, add_tail, remove_head, remove_tail, display, quit):
+> display
+Current playlist: SongB -> null
+
+Enter a command (add_head, add_tail, remove_head, remove_tail, display, quit):
+> quit
+Goodbye!
+```
+
+You can check your code with the solution here: [Solution](./linked-list-app)
