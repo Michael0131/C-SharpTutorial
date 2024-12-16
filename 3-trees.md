@@ -321,3 +321,7 @@ Enter a command (search, add, display, quit):
 Enter a command (search, add, display, quit):
 
 > quit Goodbye!
+
+
+
+You can check your code with the solution here: [Solution](./trees-movie-management)
