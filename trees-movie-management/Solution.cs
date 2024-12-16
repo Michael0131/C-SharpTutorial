@@ -105,11 +105,16 @@ public class MovieRentalSystem {
         Console.WriteLine("Welcome to the Movie Rental System!");
         string command;
         do {
-            Console.WriteLine("Enter a command (add, search, display, quit):");
-            command = Console.ReadLine()?.ToLower();
+            Console.WriteLine("Choose an option:");
+            Console.WriteLine("1: Add a movie");
+            Console.WriteLine("2: Search for a movie");
+            Console.WriteLine("3: Display all movies");
+            Console.WriteLine("4: Quit");
+
+            command = Console.ReadLine();
 
             switch (command) {
-                case "add":
+                case "1": // Add a movie
                     Console.Write("Enter the movie title: ");
                     string title = Console.ReadLine() ?? string.Empty;
 
@@ -126,24 +131,24 @@ public class MovieRentalSystem {
                     }
                     break;
 
-                case "search":
+                case "2": // Search for a movie
                     Console.Write("Enter the movie title to search: ");
                     string searchTitle = Console.ReadLine() ?? string.Empty;
                     movieSystem.SearchMovie(searchTitle);
                     break;
 
-                case "display":
+                case "3": // Display all movies
                     movieSystem.DisplayMovies();
                     break;
 
-                case "quit":
+                case "4": // Quit
                     Console.WriteLine("Goodbye!");
                     break;
 
                 default:
-                    Console.WriteLine("Invalid command. Please try again.");
+                    Console.WriteLine("Invalid option. Please choose a valid number.");
                     break;
             }
-        } while (command != "quit");
+        } while (command != "4");
     }
 }

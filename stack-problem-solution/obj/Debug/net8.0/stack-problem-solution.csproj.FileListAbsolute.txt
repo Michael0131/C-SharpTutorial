@@ -1,0 +1,15 @@
+F:\FallSemester2024\CSE212\C-SharpTutorial\stack-problem-solution\bin\Debug\net8.0\stack-problem-solution.exe
+F:\FallSemester2024\CSE212\C-SharpTutorial\stack-problem-solution\bin\Debug\net8.0\stack-problem-solution.deps.json
+F:\FallSemester2024\CSE212\C-SharpTutorial\stack-problem-solution\bin\Debug\net8.0\stack-problem-solution.runtimeconfig.json
+F:\FallSemester2024\CSE212\C-SharpTutorial\stack-problem-solution\bin\Debug\net8.0\stack-problem-solution.dll
+F:\FallSemester2024\CSE212\C-SharpTutorial\stack-problem-solution\bin\Debug\net8.0\stack-problem-solution.pdb
+F:\FallSemester2024\CSE212\C-SharpTutorial\stack-problem-solution\obj\Debug\net8.0\stack-problem-solution.GeneratedMSBuildEditorConfig.editorconfig
+F:\FallSemester2024\CSE212\C-SharpTutorial\stack-problem-solution\obj\Debug\net8.0\stack-problem-solution.AssemblyInfoInputs.cache
+F:\FallSemester2024\CSE212\C-SharpTutorial\stack-problem-solution\obj\Debug\net8.0\stack-problem-solution.AssemblyInfo.cs
+F:\FallSemester2024\CSE212\C-SharpTutorial\stack-problem-solution\obj\Debug\net8.0\stack-problem-solution.csproj.CoreCompileInputs.cache
+F:\FallSemester2024\CSE212\C-SharpTutorial\stack-problem-solution\obj\Debug\net8.0\stack-problem-solution.sourcelink.json
+F:\FallSemester2024\CSE212\C-SharpTutorial\stack-problem-solution\obj\Debug\net8.0\stack-problem-solution.dll
+F:\FallSemester2024\CSE212\C-SharpTutorial\stack-problem-solution\obj\Debug\net8.0\refint\stack-problem-solution.dll
+F:\FallSemester2024\CSE212\C-SharpTutorial\stack-problem-solution\obj\Debug\net8.0\stack-problem-solution.pdb
+F:\FallSemester2024\CSE212\C-SharpTutorial\stack-problem-solution\obj\Debug\net8.0\stack-problem-solution.genruntimeconfig.cache
+F:\FallSemester2024\CSE212\C-SharpTutorial\stack-problem-solution\obj\Debug\net8.0\ref\stack-problem-solution.dll

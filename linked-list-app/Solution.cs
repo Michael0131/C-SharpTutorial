@@ -86,34 +86,40 @@ class Program {
 
         Console.WriteLine("Welcome to the Playlist Manager!");
         while (true) {
-            Console.Write("Enter a command (add_head, add_tail, remove_head, remove_tail, display, quit): ");
-            string[] input = Console.ReadLine().Split(' ', 2); // Split command and optional song name
-            string command = input[0];
-            string song = input.Length > 1 ? input[1] : null;
+            Console.WriteLine("Choose an option:");
+            Console.WriteLine("1: Add a song to the beginning");
+            Console.WriteLine("2: Add a song to the end");
+            Console.WriteLine("3: Remove the first song");
+            Console.WriteLine("4: Remove the last song");
+            Console.WriteLine("5: Display the playlist");
+            Console.WriteLine("6: Quit");
 
+            string command = Console.ReadLine();
             switch (command) {
-                case "add_head":
-                    if (song != null) playlist.AddToHead(song);
-                    else Console.WriteLine("Please specify a song name.");
+                case "1":
+                    Console.Write("Enter the song name: ");
+                    string songHead = Console.ReadLine();
+                    playlist.AddToHead(songHead);
                     break;
-                case "add_tail":
-                    if (song != null) playlist.AddToTail(song);
-                    else Console.WriteLine("Please specify a song name.");
+                case "2":
+                    Console.Write("Enter the song name: ");
+                    string songTail = Console.ReadLine();
+                    playlist.AddToTail(songTail);
                     break;
-                case "remove_head":
+                case "3":
                     playlist.RemoveHead();
                     break;
-                case "remove_tail":
+                case "4":
                     playlist.RemoveTail();
                     break;
-                case "display":
+                case "5":
                     playlist.Display();
                     break;
-                case "quit":
+                case "6":
                     Console.WriteLine("Goodbye!");
                     return;
                 default:
-                    Console.WriteLine("Invalid command. Try again.");
+                    Console.WriteLine("Invalid option. Please choose a valid number.");
                     break;
             }
         }

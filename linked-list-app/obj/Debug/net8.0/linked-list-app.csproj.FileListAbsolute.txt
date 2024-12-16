@@ -1,0 +1,15 @@
+F:\FallSemester2024\CSE212\C-SharpTutorial\linked-list-app\bin\Debug\net8.0\linked-list-app.exe
+F:\FallSemester2024\CSE212\C-SharpTutorial\linked-list-app\bin\Debug\net8.0\linked-list-app.deps.json
+F:\FallSemester2024\CSE212\C-SharpTutorial\linked-list-app\bin\Debug\net8.0\linked-list-app.runtimeconfig.json
+F:\FallSemester2024\CSE212\C-SharpTutorial\linked-list-app\bin\Debug\net8.0\linked-list-app.dll
+F:\FallSemester2024\CSE212\C-SharpTutorial\linked-list-app\bin\Debug\net8.0\linked-list-app.pdb
+F:\FallSemester2024\CSE212\C-SharpTutorial\linked-list-app\obj\Debug\net8.0\linked-list-app.GeneratedMSBuildEditorConfig.editorconfig
+F:\FallSemester2024\CSE212\C-SharpTutorial\linked-list-app\obj\Debug\net8.0\linked-list-app.AssemblyInfoInputs.cache
+F:\FallSemester2024\CSE212\C-SharpTutorial\linked-list-app\obj\Debug\net8.0\linked-list-app.AssemblyInfo.cs
+F:\FallSemester2024\CSE212\C-SharpTutorial\linked-list-app\obj\Debug\net8.0\linked-list-app.csproj.CoreCompileInputs.cache
+F:\FallSemester2024\CSE212\C-SharpTutorial\linked-list-app\obj\Debug\net8.0\linked-list-app.sourcelink.json
+F:\FallSemester2024\CSE212\C-SharpTutorial\linked-list-app\obj\Debug\net8.0\linked-list-app.dll
+F:\FallSemester2024\CSE212\C-SharpTutorial\linked-list-app\obj\Debug\net8.0\refint\linked-list-app.dll
+F:\FallSemester2024\CSE212\C-SharpTutorial\linked-list-app\obj\Debug\net8.0\linked-list-app.pdb
+F:\FallSemester2024\CSE212\C-SharpTutorial\linked-list-app\obj\Debug\net8.0\linked-list-app.genruntimeconfig.cache
+F:\FallSemester2024\CSE212\C-SharpTutorial\linked-list-app\obj\Debug\net8.0\ref\linked-list-app.dll
