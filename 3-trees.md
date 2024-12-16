@@ -17,7 +17,6 @@ Applications:
 - **AI and Decision Trees**: Used in decision-making and game logic.
 - **Networking**: Tries are used for routing and prefix-based searching.
 
----
 
 ## Types of Trees
 
@@ -35,7 +34,7 @@ This structure ensures efficient searching, insertion, and deletion by excluding
 Balanced Binary Search Trees
 A **Balanced Binary Search Tree (BST)** maintains a height difference of no more than 1 between any two subtrees. This ensures logarithmic performance for most operations. Algorithms like **AVL Trees** and **Red-Black Trees** maintain balance by rebalancing nodes after insertion or deletion.
 
----
+![Stack Example](images/tree.png "A diagram of a tree")
 
 ## BST Operations
 
