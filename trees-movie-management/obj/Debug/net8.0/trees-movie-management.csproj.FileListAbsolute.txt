@@ -1,0 +1,15 @@
+F:\FallSemester2024\CSE212\C-SharpTutorial\trees-movie-management\bin\Debug\net8.0\trees-movie-management.exe
+F:\FallSemester2024\CSE212\C-SharpTutorial\trees-movie-management\bin\Debug\net8.0\trees-movie-management.deps.json
+F:\FallSemester2024\CSE212\C-SharpTutorial\trees-movie-management\bin\Debug\net8.0\trees-movie-management.runtimeconfig.json
+F:\FallSemester2024\CSE212\C-SharpTutorial\trees-movie-management\bin\Debug\net8.0\trees-movie-management.dll
+F:\FallSemester2024\CSE212\C-SharpTutorial\trees-movie-management\bin\Debug\net8.0\trees-movie-management.pdb
+F:\FallSemester2024\CSE212\C-SharpTutorial\trees-movie-management\obj\Debug\net8.0\trees-movie-management.GeneratedMSBuildEditorConfig.editorconfig
+F:\FallSemester2024\CSE212\C-SharpTutorial\trees-movie-management\obj\Debug\net8.0\trees-movie-management.AssemblyInfoInputs.cache
+F:\FallSemester2024\CSE212\C-SharpTutorial\trees-movie-management\obj\Debug\net8.0\trees-movie-management.AssemblyInfo.cs
+F:\FallSemester2024\CSE212\C-SharpTutorial\trees-movie-management\obj\Debug\net8.0\trees-movie-management.csproj.CoreCompileInputs.cache
+F:\FallSemester2024\CSE212\C-SharpTutorial\trees-movie-management\obj\Debug\net8.0\trees-movie-management.sourcelink.json
+F:\FallSemester2024\CSE212\C-SharpTutorial\trees-movie-management\obj\Debug\net8.0\trees-movie-management.dll
+F:\FallSemester2024\CSE212\C-SharpTutorial\trees-movie-management\obj\Debug\net8.0\refint\trees-movie-management.dll
+F:\FallSemester2024\CSE212\C-SharpTutorial\trees-movie-management\obj\Debug\net8.0\trees-movie-management.pdb
+F:\FallSemester2024\CSE212\C-SharpTutorial\trees-movie-management\obj\Debug\net8.0\trees-movie-management.genruntimeconfig.cache
+F:\FallSemester2024\CSE212\C-SharpTutorial\trees-movie-management\obj\Debug\net8.0\ref\trees-movie-management.dll
