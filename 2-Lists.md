@@ -12,9 +12,20 @@ Unlike dynamic arrays, which store data in contiguous memory locations, linked l
 
 ### Types of Linked Lists
 
-- Singly Linked List: Each node points to the next node.
-- Doubly Linked List: Each node has pointers to both the next and previous nodes.
-- Circular Linked List: The last node points back to the first node, creating a loop.
+- **Singly Linked List**:  
+  Each node points to the next node. Used in scenarios like stacks or simple queues.  
+  _Example_: Implementing a browser's back functionality with one-directional navigation.
+
+- **Doubly Linked List**:  
+  Each node points to both the next and previous nodes, allowing bidirectional traversal.  
+  _Example_: A music player's playlist with "Next" and "Previous" buttons.
+
+- **Circular Linked List**:  
+  The last node points back to the first node, forming a loop. Useful in applications where the data structure needs to be circular, like buffering.  
+  _Example_: Implementing a round-robin scheduler.
+
+![Stack Example](images/th.jpg "A diagram of a stack")
+
 
 ### Why Use Linked Lists?
 - Dynamic size: No need for memory reallocation or resizing as in arrays.
@@ -131,6 +142,10 @@ Insert in the Middle
 - Update the new node's pointers to connect to its neighbors.
 - Update the pointers of its neighbors to include the new node.
 
+
+![Stack Example](images/head_tail.jpg "A diagram of a stack")
+
+
 ### Removing from a Linked List
 
 Removing from a Linked List (head)
@@ -175,16 +190,17 @@ private void Traverse() {
 
 ### Problem to Solve: Playlist Management with a Singly Linked List
 
-A playlist system uses a singly linked list to manage songs. Each song is represented as a node in the linked list. You can:
-- Add songs to the beginning or end of the playlist.
-- Remove the first or last song from the playlist.
-- Display the current playlist.
+A playlist system uses a singly linked list to manage songs. Each song is represented as a node in the linked list. Your tasks:
 
-This program will simulate a playlist system, allowing users to:
-- Add songs to the beginning or end of the playlist.
-- Remove songs from the beginning or end of the playlist.
-- View the current playlist.
+1. Add songs to the beginning or end of the playlist.
+2. Remove the first or last song from the playlist.
+3. Display the current playlist.
 
+**Consider Edge Cases**:
+- What happens when the playlist is empty, and you try to remove a song?
+- How does the system behave if you add multiple songs in a row?
+
+Below is an example interaction:
 
 ```
 Welcome to the Playlist Manager!
