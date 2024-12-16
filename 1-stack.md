@@ -17,36 +17,35 @@ number of elements in the stack with a time complexity of O(1). Finally, the `Em
 `true` if there are no elements and operates in `constant time` O(1). These operations ensure that stacks are efficient and straightforward to use for a variety of tasks.
 
 
+## Why Use Stacks?
 
-## But why use stacks??
+Stacks are a fundamental data structure in C#, offering efficient methods to add and remove elements. Both the `Push` operation (adding an item to the top of the stack) and the `Pop` operation (removing the top item) take constant time `O(1)`. The `Peek` operation allows you to view the top item without removing it, also in `O(1)` time.
 
-A stack provides efficient methods to add and remove elements:
-
-- Adding `(push)` or removing `(pop)` an element from the stack takes `O(1)` time.
-- Stacks are simple to implement and help solve problems that involve `backtracking` or `temporary storage`.
-
-## Examples of real stack use
+Stacks are simple to implement and are ideal for solving problems involving `backtracking` or `temporary storage`. They are used whenever you need to manage data in a `Last In, First Out (LIFO)` order, making them perfect for scenarios like:
 
 - Undo functionality in text editors.
 - Navigating backward in browser history.
+- Managing function calls (e.g., call stacks).
 - Evaluating mathematical expressions.
 
-Stacks are a fundamental data structure in C#. They are used whenever you need to manage data in a `Last In`, `First Out (LIFO)` order. 
-The `Push` operation is used to add an item to the top of the stack, the `Pop` operation removes the top item, and the `Peek` operation allows 
-you to view the top item without removing it. Stacks are ideal for scenarios like `backtracking` (e.g., navigating browser history), 
-managing function calls (e.g., call stacks), or evaluating expressions. Selecting stacks in these situations helps simplify your code and 
-ensures operations are efficient and intuitive.
+By selecting stacks for these situations, you can simplify your code and ensure that operations remain efficient and intuitive.
+
 
 ## Analogy
 
 Think of a stack as a stack of plates in a cafeteria. The last plate placed on the top is the first one you pick up when you need a plate.
 
 
-| **Operation** | **Description**                     | **Efficiency** |
-|---------------|-------------------------------------|----------------|
-| **Push**      | Adds an item to the top of the stack. | O(1)           |
-| **Pop**       | Removes the top item from the stack. | O(1)           |
-| **Peek**      | Views the top item without removing it. | O(1)           |
+![Stack Example](images/Last-in-first-out.png "A diagram of a stack")
+
+
+| **Operation** | **Description**                                                                                                     | **Efficiency** |
+|---------------|---------------------------------------------------------------------------------------------------------------------|----------------|
+| **Push**      | Adds an item to the top of the stack. For instance, calling `myStack.Push(value)` places `value` onto the stack.     | O(1)           |
+| **Pop**       | Removes and returns the top item from the stack. Adheres to the `Last In, First Out (LIFO)` principle.              | O(1)           |
+| **Peek**      | Views the top item without removing it.                                                                             | O(1)           |
+| **Size**      | Returns the number of elements in the stack by checking `myStack.Count`.                                            | O(1)           |
+| **Empty**     | Checks whether the stack is empty by evaluating `myStack.Count == 0`, returning `true` if there are no elements.    | O(1)           |
 
 ## Code Example
 
